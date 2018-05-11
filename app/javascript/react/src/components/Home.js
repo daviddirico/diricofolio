@@ -31,13 +31,14 @@ class Home extends React.Component {
 
     return(
       <div id="container">
-        <div className="parallax alt1">
-          <div className="banner">
-            <span className="border">DAVID DIRICO</span>
-          </div>
+        <div className="parentParallax">
+          <div className="parallax alt1"></div>
         </div>
-        <div className="textarea">
-          <div className="openingtext">I enjoy making visually appealing and user-friendly websites.</div>
+        <div className="banner">
+          <span className="border">DAVID DIRICO</span>
+        </div>
+        <div className="textArea">
+          <div className="openingText">I enjoy making visually appealing and user-friendly websites.</div>
           <div className="scene scene--card">
             <div className="card" onClick={ (event) => this.handleClick(event)}>
               <div className="card__face card__face--front">FRONT</div>
@@ -45,183 +46,187 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        <div className="parallax alt2 smallpar"></div>
-        <div className="textarea">
-          <div className="skilltitle">LANGUAGES</div>
+        <div className="parentParallax">
+          <div className="parallax alt2 smallPar"></div>
+        </div>
+        <div className="textArea">
+          <div className="skillTitle">LANGUAGES</div>
           <ul className="languages">
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">Ruby</div>
-                <div className="skillimg">
+                <div className="skillText">Ruby</div>
+                <div className="skillImg">
                   <img src={ruby} />
                 </div>
               </li>
             </div>
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">Javascript</div>
-                <div className="skillimg">
+                <div className="skillText">Javascript</div>
+                <div className="skillImg">
                   <img src={javascript} />
                 </div>
               </li>
             </div>
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">HTML5</div>
-                <div className="skillimg">
+                <div className="skillText">HTML5</div>
+                <div className="skillImg">
                   <img src={html5} />
                 </div>
               </li>
             </div>
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">CSS3</div>
-                <div className="skillimg">
+                <div className="skillText">CSS3</div>
+                <div className="skillImg">
                   <img src={css3} />
                 </div>
               </li>
             </div>
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">SASS</div>
-                <div className="skillimg">
+                <div className="skillText">SASS</div>
+                <div className="skillImg">
                   <img src={sass} />
                 </div>
               </li>
             </div>
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">jQuery</div>
-                <div className="skillimg">
+                <div className="skillText">jQuery</div>
+                <div className="skillImg">
                   <img src={jquery} />
                 </div>
               </li>
             </div>
           </ul>
         </div>
-        <div className="textarea">
-          <div className="skilltitle">FRAMEWORKS</div>
+        <div className="textArea">
+          <div className="skillTitle">FRAMEWORKS</div>
           <ul className="languages">
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">Ruby on Rails</div>
-                <div className="skillimg">
+                <div className="skillText">Ruby on Rails</div>
+                <div className="skillImg">
                   <img src={rails} />
                 </div>
               </li>
             </div>
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">React.js</div>
-                <div className="skillimg">
+                <div className="skillText">React.js</div>
+                <div className="skillImg">
                   <img src={reactjs} />
                 </div>
               </li>
             </div>
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">Redux</div>
-                <div className="skillimg">
+                <div className="skillText">Redux</div>
+                <div className="skillImg">
                   <img src={redux} />
                 </div>
               </li>
             </div>
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">Node.js</div>
-                <div className="skillimg">
+                <div className="skillText">Node.js</div>
+                <div className="skillImg">
                   <img src={nodejs} />
                 </div>
               </li>
             </div>
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">MaterialUI</div>
-                <div className="skillimg">
+                <div className="skillText">MaterialUI</div>
+                <div className="skillImg">
                   <img src={materialui} />
                 </div>
               </li>
             </div>
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">Foundation</div>
-                <div className="skillimg">
+                <div className="skillText">Foundation</div>
+                <div className="skillImg">
                   <img src={foundation} />
                 </div>
               </li>
             </div>
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">Bootstrap</div>
-                <div className="skillimg">
+                <div className="skillText">Bootstrap</div>
+                <div className="skillImg">
                   <img src={bootstrap} />
                 </div>
               </li>
             </div>
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">Capybara</div>
-                <div className="skillimg">
+                <div className="skillText">Capybara</div>
+                <div className="skillImg">
                   <img src={capybara} />
                 </div>
               </li>
             </div>
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">RSpec</div>
-                <div className="skillimg">
+                <div className="skillText">RSpec</div>
+                <div className="skillImg">
                   <img src={rspec} />
                 </div>
               </li>
             </div>
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">Enzyme</div>
-                <div className="skillimg">
+                <div className="skillText">Enzyme</div>
+                <div className="skillImg">
                   <img src={enzyme} />
                 </div>
               </li>
             </div>
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">Jasmine</div>
-                <div className="skillimg">
+                <div className="skillText">Jasmine</div>
+                <div className="skillImg">
                   <img src={jasmine} />
                 </div>
               </li>
             </div>
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">Karma</div>
-                <div className="skillimg">
+                <div className="skillText">Karma</div>
+                <div className="skillImg">
                   <img src={karma} />
                 </div>
               </li>
             </div>
           </ul>
         </div>
-        <div className="textarea">
-          <div className="skilltitle">DATABASES</div>
+        <div className="textArea">
+          <div className="skillTitle">DATABASES</div>
           <ul className="languages">
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">Postgres</div>
-                <div className="skillimg">
+                <div className="skillText">Postgres</div>
+                <div className="skillImg">
                   <img src={postgres} />
                 </div>
               </li>
             </div>
-            <div className="skillcontainer">
+            <div className="skillContainer">
               <li className="skill">
-                <div className="skilltext">SQL</div>
-                <div className="skillimg">
+                <div className="skillText">SQL</div>
+                <div className="skillImg">
                   <img src={sql} />
                 </div>
               </li>
             </div>
           </ul>
         </div>
-        <div className="parallax alt1"></div>
+        <div className="parentParallax">
+          <div className="parallax alt1"></div>
+        </div>
       </div>
 
     )
