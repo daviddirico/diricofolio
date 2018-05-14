@@ -16,7 +16,7 @@ const Contact = props => {
               I shall get back to you within 24 hours.
             </div>
             <div className="projectText addendum">
-             (barring any fights with grizzley bears)
+             (barring any fights with grizzly bears)
             </div>
           </li>
         </div>
