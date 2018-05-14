@@ -32,7 +32,7 @@ class Home extends React.Component {
     return(
       <div id="container">
         <div className="parentParallax">
-          <div className="parallax alt1"></div>
+          <div className="parallax alt10"></div>
         </div>
         <div className="banner">
           <span className="border">DAVID DIRICO</span>
@@ -47,7 +47,7 @@ class Home extends React.Component {
           </div>
         </div>
         <div className="parentParallax">
-          <div className="parallax alt2 smallPar"></div>
+          <div className="parallax alt5 smallPar"></div>
         </div>
         <div className="textArea">
           <div className="skillTitle">LANGUAGES</div>
@@ -224,9 +224,6 @@ class Home extends React.Component {
             </div>
           </ul>
         </div>
-        <div className="parentParallax">
-          <div className="parallax alt1"></div>
-        </div>
       </div>
 
     )
@@ -234,3 +231,8 @@ class Home extends React.Component {
 }
 
 export default Home
+
+
+// <div className="parentParallax">
+// <div className="parallax alt9 smallPar"></div>
+// </div>
