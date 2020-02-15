@@ -7,7 +7,7 @@ const Contact = props => {
       <ul className="projectBreakdown topProject">
         <div className="projectDescriptionContainer contactText">
           <li className="projectDescription listMargin">
-            <div className="projectTitle">NEED WORK DONE?</div>
+            <div className="projectTitle">NEED MY SERVICES?</div>
             <div className="projectText">
               Send an email to DAVIDJDIRICO@GMAIL.COM
             </div>
@@ -22,7 +22,7 @@ const Contact = props => {
         </div>
         <div className="projectImageContainer">
           <li className="projectImage listMargin">
-
+              
           </li>
         </div>
       </ul>
